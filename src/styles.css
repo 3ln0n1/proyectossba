@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {background-color: rgb(247, 245, 245); height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+    background-color:rgb(19,213,194);
+    
+}
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+    background-color:#fff;
+    
+}
+.mat-slide-toggle .mat-slide-toggle-bar{
+    width: 30px;
+    height: 16px;
+    
+}
+.mat-slide-toggle .mat-slide-toggle-thumb{
+    width: 14px;
+    height: 14px;
+    margin-top: 4px;
+    
+}

@@ -1,0 +1,23 @@
+
+.featured{
+    
+    border-radius: 10px;
+    background-color:#fff;
+    height: auto;
+}
+.tFeatured{
+    height: 90px;
+
+}
+
+.tFeatured .descripcion, .indicadores{
+    font-size: 7px;
+}
+.logoFeatured{
+    width:60px;
+    height: 60px;
+}
+div{
+    
+    margin-top: 200px;
+}
