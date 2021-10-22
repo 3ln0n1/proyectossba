@@ -1,0 +1,68 @@
+.fondoperfil{
+
+    text-align: center;
+}
+.fondoestado{
+
+    text-align: center;
+
+}
+.alinacion{
+    text-align: center;
+}
+.fotoperfil{
+    height: 100px;
+    width: 100px;
+}
+.fondopciones{
+    background: #F28773;
+    text-align: center;
+    align-items: center;
+}
+.fondopciones2{
+    text-align: center;
+    align-items: center;
+}
+.nivelimg{
+    height: 50px;
+    width: 50px;
+}
+.fondoresumen{
+    margin: 10px;
+    
+}
+.imgresumen{
+    height: 50px;
+    width: 50px;
+}
+.espacio{
+    margin: 0px;
+}
+.espacioo{
+margin: 20px;
+}
+.esp{
+    margin: 0px;
+}
+.fondocampanas{
+margin-top: 20px;
+}
+
+.imgcampana{
+    height: 60px;
+    width: 60px;
+}
+.linea{
+    border-bottom:  #c3c3c3  1px solid;
+}
+.margencritica{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.margendescripcion{
+    margin-top: 15px;
+}
+
+.fondoresena{
+    margin-bottom: 50px;
+}
