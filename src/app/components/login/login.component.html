@@ -1,10 +1,31 @@
-<form class="example-form">
-<mat-form-field class="example-full-width" appearance="fill">
-    <mat-label>Company (disabled)</mat-label>
-    <input matInput disabled value="Google">
-  </mat-form-field>
-</form>
+<div fxLayoutAlign="center center" fxFlexFill class="fondo">
+    <mat-card fxFlex="30" class="mat-elevation-z7">
 
-<div>
-  
+        <mat-toolbar fxLayout="column">
+            <span>Inicia Sesión</span>
+          </mat-toolbar>
+        <p fxLayoutAlign="center center">Ingresa tu usuario y contraseña</p>
+
+        <form fxLayoutAlign="strech" fxLayout="column">
+            <mat-form-field>
+              <mat-label>Usuario</mat-label>
+              <input matInput placeholder="Usuario">
+            </mat-form-field>
+          
+            <mat-form-field type="password">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Password">
+              </mat-form-field>
+            
+            <div class="terminos">
+                <mat-checkbox class="example-margin">Acepto los </mat-checkbox><a (click)="openDialog()">Términos y condiciones</a>
+            </div>
+            
+            <button class="login-button" mat-raised-button type="submit">Login</button>
+
+            <div fxLayoutAlign="center center" class="forgot-password">
+                <a routerLink="../forgot-password">Olvidé mi Contraseña</a>
+            </div>
+          </form>
+    </mat-card>
 </div>

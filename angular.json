@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Ubbitt": {
+    "soy-ubbitt": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Ubbitt",
+            "outputPath": "dist/soy-ubbitt",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Ubbitt:build:production"
+              "browserTarget": "soy-ubbitt:build:production"
             },
             "development": {
-              "browserTarget": "Ubbitt:build:development"
+              "browserTarget": "soy-ubbitt:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Ubbitt:build"
+            "browserTarget": "soy-ubbitt:build"
           }
         },
         "test": {
@@ -104,5 +104,5 @@
       }
     }
   },
-  "defaultProject": "Ubbitt"
+  "defaultProject": "soy-ubbitt"
 }

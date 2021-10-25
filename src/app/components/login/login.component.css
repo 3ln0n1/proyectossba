@@ -1,0 +1,19 @@
+.fondo{
+    background: rgb(41,159,39);
+    background: linear-gradient(0deg, rgba(25,222,183,1) 0%, rgba(45,206,253,1) 100%);
+}
+.mat-card{
+    border-radius: 30px;
+}
+
+.terminos{
+    padding: 24px;
+}
+
+.forgot-password{
+    padding: 12px;
+}
+
+.login-button{
+    margin: 23px;
+}
