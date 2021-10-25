@@ -1,0 +1,6 @@
+.main-container{
+    width: auto;
+    height: 100%;
+    background: rgb(41,159,39);
+    background: linear-gradient(0deg, rgba(25,222,183,1) 0%, rgba(45,206,253,1) 100%);
+}

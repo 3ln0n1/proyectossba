@@ -1,0 +1,29 @@
+<app-header></app-header>
+<mat-sidenav-container class="main-container">
+    
+    <mat-sidenav mode="side" opened>
+        
+        <mat-list>
+        <mat-list-item RouterLinkActive="active">
+            <mat-icon mat-list-icon>home</mat-icon>
+            <div mat-line><a routerLink="/profile/home">Inicio</a></div>
+          </mat-list-item>
+        </mat-list>
+        
+        <mat-list>
+          <mat-list-item RouterLinkActive="active">
+            <mat-icon mat-list-icon>check</mat-icon>
+            <div mat-line><a routerLink="/profile/services">Servicios</a></div>
+          </mat-list-item>
+        </mat-list>
+
+    </mat-sidenav>
+
+
+    <mat-sidenav-content class="content">
+        
+        <router-outlet></router-outlet>
+
+    </mat-sidenav-content>
+
+  </mat-sidenav-container>
