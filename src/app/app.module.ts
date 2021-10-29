@@ -19,10 +19,13 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
+import { FirstComponentComponent } from './components/featured/first-component/first-component.component';
 @NgModule({
   declarations: [
     AppComponent,
+    FirstComponentComponent,
     LoginComponent,
     ForgotPasswordComponent,
     NotFoundComponent,
@@ -42,7 +45,8 @@ import {MatListModule} from '@angular/material/list';
     MatDialogModule,
     MatIconModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatSlideToggleModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
